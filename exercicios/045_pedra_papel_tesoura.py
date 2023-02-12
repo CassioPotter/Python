@@ -1,4 +1,5 @@
 from random import randint
+from time import sleep
 
 itens = ('pedra', 'papel', 'tesoura')
 comp = randint(0, 2)
@@ -9,8 +10,18 @@ joga = int(input('''\nQual e a sua jogada?
 [2] - tesoura
 '''))
 
+print('\nJO')
+sleep(1)
+print('\nKEN')
+sleep(1)
+print('\nPO')
+sleep(1)
+
+print('='*20)
 print(f'Computador jogou {itens[comp]}')
 print(f'Jogador jogou {itens[joga]}')
+print('='*20)
+print('\n')
 
 if joga == 0: #pedra
     if comp == 0:
@@ -40,3 +51,5 @@ elif joga == 2: #tesoura
 
 else:
     print('Opção invalida')        
+
+print('\n')
