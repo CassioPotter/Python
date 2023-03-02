@@ -9,7 +9,8 @@ menu_inicial.resizable(False,False)
 menu_inicial.iconbitmap('projetos\icon.ico')
 menu_inicial ['bg'] = 'blue'
 
-
+btn = Button(menu_inicial, text='executar')
+btn.pack()
 
 
 menu_inicial.mainloop()
