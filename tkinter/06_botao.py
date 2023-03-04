@@ -9,7 +9,7 @@ menu_inicial.minsize(100,100)
 menu_inicial.maxsize(1000,1000)
 
 menu_inicial.iconbitmap('projetos/icon.ico')
-
+menu_inicial['bg'] = 'blue'
 
 
 
