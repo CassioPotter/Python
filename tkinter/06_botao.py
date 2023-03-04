@@ -12,7 +12,7 @@ menu_inicial.iconbitmap('projetos/icon.ico')
 menu_inicial['bg'] = 'blue'
 
 btn = Button(menu_inicial, text='executar')
-
+btn.pack()
 
 
 
