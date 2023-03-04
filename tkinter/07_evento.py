@@ -21,7 +21,7 @@ cmd = Button(menu_inicial, text='executar', command=cmd_Click)
 cmd.pack()
 
 btn = Button(menu_inicial, text='soma', command=soma)
-
+btn.pack()
 
 
 
