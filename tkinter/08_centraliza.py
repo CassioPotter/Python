@@ -11,7 +11,6 @@ menu_inicial.maxsize(1000,1000)
 menu_inicial.iconbitmap('projetos/icon.ico')
 menu_inicial['bg'] = 'blue'
 
-largu
 
 def cmd_Click():
     print('ola mundo')
