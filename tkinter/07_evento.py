@@ -14,9 +14,13 @@ menu_inicial['bg'] = 'blue'
 def cmd_Click():
     print('ola mundo')
 
+def soma():
+    print(f'A soma de 2 + 2 = {2+2}')
+
 cmd = Button(menu_inicial, text='executar', command=cmd_Click)
 cmd.pack()
 
+btn = Button(menu_inicial, text='soma', command=soma)
 
 
 
