@@ -11,8 +11,8 @@ menu_inicial.maxsize(1000,1000)
 menu_inicial.iconbitmap('projetos/icon.ico')
 menu_inicial['bg'] = 'blue'
 
-btn = Button(menu_inicial, text='executar')
-btn.pack()
+cmd = Button(menu_inicial, text='executar')
+cmd.pack()
 
 
 
