@@ -9,10 +9,7 @@ menu_inicial.resizable(False,False)
 menu_inicial.iconbitmap('projetos\icon.ico')
 menu_inicial ['bg'] = 'blue'
 
-def btn_clic (mensagem):
-    print(mensagem)
-
-btn = Button(menu_inicial, text='executar', command = lambda:btn_cliC('OLA MUNDO'))
+btn = Button(menu_inicial, text='executar')
 btn.pack()
 
 
