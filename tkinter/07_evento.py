@@ -11,8 +11,12 @@ menu_inicial.maxsize(1000,1000)
 menu_inicial.iconbitmap('projetos/icon.ico')
 menu_inicial['bg'] = 'blue'
 
-cmd = Button(menu_inicial, text='executar')
+def cmd_Click():
+    print('ola mundo')
+
+cmd = Button(menu_inicial, text='executar', command=cmd_Click)
 cmd.pack()
+
 
 
 
