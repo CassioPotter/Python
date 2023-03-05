@@ -24,6 +24,7 @@ cmd.pack()
 btn = Button(menu_inicial, text='soma', command=soma)
 btn.pack()
 
-
+label1 = Label(menu_inicial, text='Esse é o label 1')
+label1.pack()
 
 menu_inicial.mainloop()
