@@ -33,7 +33,8 @@ btn.pack()
 
 label1 = Label(
                 menu_inicial,
-                text='''texto 1
+                text='''
+                texto 1
                 texto 2
                 texto 3
                 \n\n\n
