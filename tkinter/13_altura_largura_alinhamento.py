@@ -54,7 +54,7 @@ label2 = Label(
     font='arial 20',
     height=2,
 )
-
+label2.pack()
 
 
 
