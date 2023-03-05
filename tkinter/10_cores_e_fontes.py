@@ -17,17 +17,26 @@ def cmd_Click():
 def soma():
     print(f'A soma de 2 + 2 = {2+2}')
 
-cmd = Button(menu_inicial, text='executar', command=cmd_Click)
+cmd = Button(
+    menu_inicial, 
+    text='executar', 
+    command=cmd_Click
+    )
 cmd.pack()
 
-btn = Button(menu_inicial, text='soma', command=soma)
+btn = Button(
+    menu_inicial, 
+    text='soma', 
+    command=soma
+    )
 btn.pack()  
 
 label1 = Label(
                 menu_inicial,
                 text='Esse é o label 1', 
                 bg= 'red',
-                fg='white'
+                fg='white',
+                font='Arial 20 bold italic'
                 )
 label1.pack()
 
