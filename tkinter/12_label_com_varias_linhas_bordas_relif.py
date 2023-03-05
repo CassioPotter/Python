@@ -35,7 +35,7 @@ label1 = Label(
                 menu_inicial,
                 text='''Esse é o label 1
                 texto 2
-                texto 3
+                texto 3\n\n\n
                 texto 4''', 
                 bg= 'red',
                 fg='white',
