@@ -53,6 +53,7 @@ label2 = Label(
     text= 'texto1',
     font='arial 20',
     height=2,
+    anchor=S
 )
 label2.pack()
 
