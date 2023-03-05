@@ -37,7 +37,7 @@ label1 = Label(
                 bg= 'red',
                 fg='white',
                 font='Arial 42 bold italic',
-                width=50
+                width=100
                 )
 label1.pack()
 
