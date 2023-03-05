@@ -39,8 +39,10 @@ label1 = Label(
                 texto 4''', 
                 bg= 'red',
                 fg='white',
-                font='Arial 42 bold italic',
-                width=100
+                font='Arial 20 bold italic',
+                width=100,
+                bd=1,
+                relief='solid'
                 )
 label1.pack()
 
