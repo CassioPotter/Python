@@ -10,6 +10,7 @@ lista4 = [list(range(11))]
 lista5 = list(['cassio potter'])
 
 print (type([]))
+print(lista3)
 print(lista4)
 print(lista5)
 
