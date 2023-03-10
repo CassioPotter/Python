@@ -10,6 +10,8 @@ tupla1 = (1, 2, 3, 4, 5)
 tupla2 = 1, 2, 3, 4, 5
 tupla3 = (1) #não e uma tupla
 tupla4 = (1,)#é uma tupla
+tupla5 = tuple(range(11))
+tupla6 = tupla1 + tupla2
 
 
 print(type(()))
@@ -30,3 +32,22 @@ print('\n')
 print(tupla4)
 print(type(tupla4))
 
+print('\n')
+print(tupla5)
+print(type(tupla5))
+
+print('\n')
+print(tupla6)
+print(type(tupla6))
+
+print('\n')
+print( 3 in tupla1)
+
+print('\n')
+for n in tupla1:
+    print(n)
+
+print('\n')
+print(tupla1.count(2))
+
+print('\n')
