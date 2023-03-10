@@ -14,7 +14,7 @@ tupla5 = tuple(range(11))
 tupla6 = tupla1 + tupla2
 nome = tuple('cassio potter')
 meses = ('janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'desembro')
-
+i = 0
 
 print(type(()))
 
@@ -62,3 +62,6 @@ print(meses[8])
 while i < len(meses):
     print(meses[i])
     i = i+1
+
+print('\n')
+print(meses.index('agosto'))
