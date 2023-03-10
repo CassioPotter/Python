@@ -12,6 +12,7 @@ tupla3 = (1) #não e uma tupla
 tupla4 = (1,)#é uma tupla
 tupla5 = tuple(range(11))
 tupla6 = tupla1 + tupla2
+nome = tuple('cassio potter')
 
 
 print(type(()))
@@ -51,3 +52,5 @@ print('\n')
 print(tupla1.count(2))
 
 print('\n')
+print(nome)
+print(nome.count('t'))
