@@ -65,3 +65,6 @@ while i < len(meses):
 
 print('\n')
 print(meses.index('agosto'))
+
+print('\n')
+print(meses[3:])
