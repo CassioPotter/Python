@@ -4,6 +4,7 @@ são conhecido por mapas
 tipo chave, valor
 mostra chave e o valor
 caso tente usar uma chave que não exista da keyerror
+o tipo de dado none em python representa o tipo sem tipo ou o tipo vazio
 """
 print(type({}))
 print('\n')
