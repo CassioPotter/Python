@@ -14,3 +14,6 @@ print('\n')
 pais = dict(br='Brasil', eua='Estados Unidos', py='Paraguai')
 print(type(pais))
 print(pais)
+
+print('\n')
+print(paises['br'])
